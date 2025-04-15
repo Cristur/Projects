@@ -1,0 +1,44 @@
+
+
+/* ARTICOLI */
+
+.articleContainer {
+    margin: 150px 300px;
+    display: flex;
+    gap: 20px;
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+  }
+  .articleTitles p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+  }
+  .article h2{
+      font-weight: bold;
+      font-size: 22px;
+  }
+  .article img{
+    width: 25px;
+  }
+  .articleImages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .articleImages img {
+    flex: 1 1 100px;
+    width: 200px;
+  }
+  
