@@ -1,0 +1,260 @@
+/* font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+/* HEADER */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffc017;
+  height: 75px;
+  border-bottom: 1px solid black;
+  transition: background-color 0.5s;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.menu .menuLink{
+  text-decoration: none;
+  color: black;
+}
+
+.start {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 40px;
+  transition: background-color 0.5s;
+}
+
+/* SOTTO HEADER */
+.yellowBg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffc017;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding-left: 200px;
+}
+.yellowBgText{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 30px;
+}
+.yellowBgText h1{
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 106px;
+}
+.yellowBgText p{
+  font-weight: 500;
+    font-size: 17px;
+}
+.yellowBgText a {
+  width: 170px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+
+/* TRENDING*/
+.trendingContainer{
+  border-bottom: 1px solid lightgray;
+}
+.trendingContainer2{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 ;
+  
+}
+.trendingHead{
+  display: flex;
+  margin-left: 300px;
+  margin-bottom: 10px;
+}
+.trendingHead p{
+  display: flex;
+  align-items: center;
+}
+.trendingHead img{
+  width: 30px;
+}
+
+.trendingTitles p{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+}
+.trendingCardsContainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 300px;
+gap: 20px;
+}
+.trendingIndex{
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.1;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 calc(100%/3 - 80px);
+}
+.card h2{
+  font-weight: bold;
+  font-size: 15px;
+}
+.card p{
+  font-size:12px;
+}
+
+.card img{
+  width: 20px;
+}
+
+
+
+
+/* ARTICOLI*/
+
+.articleContainer {
+  margin: 150px 300px;
+  display: flex;
+  gap: 20px;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.articleTitles p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+}
+.article h2{
+    font-weight: bold;
+    font-size: 22px;
+}
+.article img{
+  width: 20px;
+}
+.articleDate{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.articleDate img{
+  width: 15px;
+}
+
+.article a{
+  text-decoration: none;
+  color: black;
+  background-color:#F2F2F2;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.articleImages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.articleImages img {
+  flex: 1 1 100px;
+  width: 200px;
+}
+.articleDate .bookmark{
+  align-self: flex-end;
+}
+
+
+/* TAGCOLLECTOR */
+.relativeParent{
+  position: relative;
+}
+.asideContainer{
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.tagContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #F2F2F2;
+  margin-left: 50px;
+}
+.tagContainer h3{
+  font-weight: bold;
+}
+.tagList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width:400px;
+}
+.tagList a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #F2F2F2;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 15px 10px;
+}
+.btnTopics {
+  text-decoration: none;
+  color: #009900;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.utilityLinks{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 50px;
+  gap: 20px;
+}
+.utilityLinks a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}

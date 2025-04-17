@@ -1,0 +1,23 @@
+$primary: white;
+$btn-border-radius: 0px;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: #141414;
+}
+#logo {
+  
+    width: 120px;
+
+}
+
+.filmContainer {
+  img {
+    width: 100%;
+  }
+}
+
+.profilo img{
+    width: 20px;
+}
+
